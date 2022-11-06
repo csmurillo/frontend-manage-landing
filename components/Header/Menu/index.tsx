@@ -1,7 +1,7 @@
 
 const Menu: React.FC = ()=>{
     return (
-        <div className="absolute top-0 left-0 w-full h-full px-6 lg:hidden">
+        <div className="absolute top-0 left-0 w-full h-full px-6 lg:hidden z-40">
             <div className="mt-28 bg-white rounded">
                 <nav className="px-32 py-10">
                     <ul className="flex flex-col gap-7">

@@ -21,7 +21,7 @@ const Header: React.FC = ()=>{
 
     return (
         <>
-            <header className="flex justify-between">
+            <header className="flex justify-between mb-[3rem] lg:mb-[7.5rem]">
                 <div className="flex items-center">
                     <div className="relative w-28 h-5">
                         <Image fill src={Logo} alt="website logo"/>
