@@ -1,12 +1,12 @@
 const SimplifyHowTeamWorks:React.FC = ()=>{
     return (
-        <div className="h-[25.3rem] w-full flex items-center px-8 bg-brightRed lg:h-[13.75rem] lg:px-40 lg:py-16">
-            <div className="w-full h-full flex flex-col justify-between lg:flex-row">
-                <div className="h-full flex items-center">
-                    <p className="text-white text-4xl text-center mb-20">Simplify how your team works today.</p>
-                </div>
-                <div className="flex justify-center">
-                    <button className="px-9 py-4 bg-white rounded-full lg:rounded-2xl">Get Started</button>
+        <div className="bg-brightRed flex flex-col px-8 py-20 lg:flex-row lg:justify-between lg:px-40">
+            <div className="mb-20 lg:mb-0 lg:w-[445px]">
+                <p className="text-4xl text-center text-white lg:text-start">Simplify how your team works today.</p>
+            </div>
+            <div className="flex justify-center">
+                <div className="flex items-center">
+                    <button className="inline bg-white text-brightRed px-9 py-4 rounded-full lg:py-2">Get Started</button>
                 </div>
             </div>
         </div>

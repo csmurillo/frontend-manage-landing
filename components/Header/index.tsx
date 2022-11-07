@@ -24,7 +24,8 @@ const Header: React.FC = ()=>{
             <header className="flex justify-between mb-[3rem] lg:mb-[7.5rem]">
                 <div className="flex items-center">
                     <div className="relative w-28 h-5">
-                        <Image fill src={Logo} alt="website logo"/>
+                        <Logo/>
+                        {/* <Image fill src={Logo} alt="website logo"/> */}
                     </div>
                 </div>
                 <div className="hidden lg:flex lg:items-center">
@@ -51,14 +52,20 @@ const Header: React.FC = ()=>{
                 <div className="hidden lg:block">
                     <button className="px-9 py-3 bg-brightRed rounded-3xl text-white hover:bg-[#F98F75]">Get Started</button>
                 </div>
-                {menuToggle ? 
-                (<div className="relative w-6 h-5 flex items-center lg:hidden z-50">
-                    <Image className="cursor-pointer" fill src={CloseIcon} alt="close menu button" onClick={()=>{closeMenu()}}/>
-                </div>)
+                {menuToggle ?
+                (
+                    <CloseIcon className="relative w-6 h-5 flex items-center lg:hidden z-50 hover:cursor-pointer"/>
+                ) 
+                // (<div className="relative w-6 h-5 flex items-center lg:hidden z-50">
+                //     <Image className="cursor-pointer" fill src={CloseIcon} alt="close menu button" onClick={()=>{closeMenu()}}/>
+                // </div>)
                 :
                 (<div className="relative w-6 h-5 flex items-center lg:hidden">
-                    <Image className="cursor-pointer" fill src={MenuIcon} alt="menu button" onClick={()=>{openMenu()}}/>
+                    <MenuIcon className="relative w-6 h-5 flex items-center lg:hidden hover:cursor-pointer bg-black" />
                 </div>)
+                // (<div className="relative w-6 h-5 flex items-center lg:hidden">
+                //     <Image className="cursor-pointer" fill src={MenuIcon} alt="menu button" onClick={()=>{openMenu()}}/>
+                // </div>)
                 }
             </header>
             {menuToggle && <Menu/>}
