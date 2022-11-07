@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import SimplifyHowTeamWorks from '../components/SimplifyHowTeamWorks'
 import UpsellManage from '../components/UpsellManage'
 import Footer from '../components/Footer';
+import Testimonials from '../components/Testimonials'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <main>
           <BuildBetterProducts/>
           <UpsellManage/>
+          <Testimonials/>
         </main>
       </div>
       <SimplifyHowTeamWorks/>

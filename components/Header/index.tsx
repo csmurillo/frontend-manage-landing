@@ -25,7 +25,6 @@ const Header: React.FC = ()=>{
                 <div className="flex items-center">
                     <div className="relative w-28 h-5">
                         <Logo/>
-                        {/* <Image fill src={Logo} alt="website logo"/> */}
                     </div>
                 </div>
                 <div className="hidden lg:flex lg:items-center">
@@ -60,12 +59,12 @@ const Header: React.FC = ()=>{
                 //     <Image className="cursor-pointer" fill src={CloseIcon} alt="close menu button" onClick={()=>{closeMenu()}}/>
                 // </div>)
                 :
-                (<div className="relative w-6 h-5 flex items-center lg:hidden">
-                    <MenuIcon className="relative w-6 h-5 flex items-center lg:hidden hover:cursor-pointer bg-black" />
-                </div>)
                 // (<div className="relative w-6 h-5 flex items-center lg:hidden">
-                //     <Image className="cursor-pointer" fill src={MenuIcon} alt="menu button" onClick={()=>{openMenu()}}/>
+                //     <MenuIcon className="relative w-6 h-5 flex items-center lg:hidden hover:cursor-pointer bg-black" />
                 // </div>)
+                (<div className="relative w-6 h-5 flex items-center lg:hidden">
+                    <Image className="cursor-pointer" fill src='/images/icon-hamburger.svg' alt="menu button" onClick={()=>{openMenu()}}/>
+                </div>)
                 }
             </header>
             {menuToggle && <Menu/>}
