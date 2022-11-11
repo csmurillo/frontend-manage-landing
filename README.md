@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/csmurillo/frontend-manage-landing](https://github.com/csmurillo/frontend-manage-landing)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://frontend-manage-landing.vercel.app/](https://frontend-manage-landing.vercel.app/)
 
 ## My process
 
