@@ -7,7 +7,7 @@ interface CardProps{
 }
 const Card: React.FC<CardProps> = ({testimonailImage,testimonailName,testimonial})=>{
     return (
-        <div className="flex relative pb-10 w-full lg:min-h-[256px] lg:min-w-[540px]">
+        <div className="flex relative pb-10 w-full">
             <div className="absolute top-0 left-0 w-full h-full bg-veryLightGray -z-10 mt-9 flex-1"></div>
             <div className="w-full">
                 <div className="flex justify-center mb-6">

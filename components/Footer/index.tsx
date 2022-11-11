@@ -34,7 +34,7 @@ const Footer: React.FC = ()=>{
             <div className={styles.gridContainer}>
                 <div className={styles.inputFormSection}>
                     <form className='flex justify-center gap-2' id="form" onSubmit={emailForm} noValidate>
-                        <input value={email} onChange={emailOnChange} placeholder='Updates in your inbox…' className='pl-6 w-3/4 rounded-3xl text-sm text-black min-h-[44px] lg:min-h-[.9375rem]' />
+                        <input value={email} onChange={emailOnChange} placeholder='Updates in your inbox…' className='pl-6 w-3/4 rounded-3xl text-sm text-black min-h-[2.75] lg:min-h-[.9375rem]' />
                         <button type='submit' className='px-6 py-3 bg-brightRed rounded-3xl text-sm'>Go</button>
                     </form>
                     {invalidEmail&&<div className='inbox-error flex pl-10 lg:pl-5'>

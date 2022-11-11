@@ -8,6 +8,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x:hidden;
+  width:100%; height: 100%;
 }
 
 a {
@@ -28,3 +30,28 @@ a {
     background: black;
   }
 }
+
+@media (min-width: 960px) {
+  .slick-list{
+    height:256px !important;
+  }
+  /* .slick-slide {
+    margin-right: 30px;
+  } */
+}
+/* @media (min-width: 960px) {
+  .slick-list{
+    height:256px !important;
+  }
+  .slick-slide {
+    margin-right: 30px;
+    width:540px !important;
+    min-width:540px;
+  }
+} */
+
+/* .slick-slide {
+  width: 540px;
+  margin: 0 15px 0 0;
+} */
+

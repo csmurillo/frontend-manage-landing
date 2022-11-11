@@ -17,6 +17,9 @@ module.exports = {
       },
       fontFamily:{
         viet:['Be Vietnam Pro', 'sans-serif']
+      },
+      backgroundImage: {
+        simplifySection: "url('/images/bg-simplify-section.svg')",
       }
     },
   },
